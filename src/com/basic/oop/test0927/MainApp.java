@@ -24,6 +24,29 @@ public class MainApp {
 		sText = sText + " Bug";
 		
 		System.out.println(sText);
+		
+		
+		/*
+		 * Person class를 참고해서
+		 * 도서명, 저자, 출판사
+		 * 가격을 멤버로 갖는 Book 클래스 작성
+		 *  생성자  -> 매개변수 X, 각 멤버변수에 값을 저장하는 생성자
+		 * 가격 getter / setter
+		 * 객체 정보 출력 메서드
+		 * 
+		 * 
+		 */
+		System.out.println();
+		Book Com1 = new Book("Do it 자바프로그래밍", "박은종" , "이지스퍼블리싱 ",25000);
+		Book Com2 = new Book("자바의 정석", "남궁성" , "도우출판 ",32000);
+		Book Com3 = new Book("일하지 않는 시간의 힘", "마릴린폴" , "청림출판 ",14000);
+		
+		Com1.PrintBook();
+		System.out.println();
+		Com2.PrintBook();
+		System.out.println();
+		Com3.PrintBook();
+		
 	}
 
 }

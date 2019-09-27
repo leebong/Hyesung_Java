@@ -1,6 +1,8 @@
 package com.basic.oop.test0927;
 
 
+
+
 public class Person {
 	//생성자
 
@@ -15,6 +17,8 @@ public class Person {
 	 void SetConsoleCursorPosition(HanDle, psition)
 	*/
 	
+	
+
 	public int getM_nAge() {
 		return m_nAge;
 	}
@@ -38,6 +42,8 @@ public class Person {
 		m_nAge = 0;
 		m_sName = "NULL";
 	}
+	
+
 	
 	
 	
